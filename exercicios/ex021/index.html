@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        h1{
+            box-shadow: inset 3px 3px 14px 6px rgb(204, 200, 200);
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px black;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(133, 130, 130);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 150px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho-->
+        <h1>Meu site</h1>
+        <nav> <!-- Menu -->
+            <a href="https://www.facebook.com/" target="rel">Facebook</a>
+            <a href="https://www.youtube.com/" target="rel">Youtube</a>
+            <a href="https://www.instagram.com/" target="rel">Instagram</a>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D" target="_blank">Twiter</a>
+            <a href="https://www.tiktok.com/pt-BR/" target="_blank">TikTok</a>
+        </nav>
+    </header>
+    <main> <!-- Conteúdo principal -->
+        <section id="assuntos"> <!-- Seções dentro do site -->
+            <p>Esportes Política Tecnologia</p>
+            <article> <!-- Artigo -->
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos debitis veniam nesciunt, facere culpa quam rem ex quidem beatae quibusdam excepturi numquam ut laborum, distinctio voluptatibus deserunt, inventore repudiandae modi.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+        <article>
+            
+        </article>
+        <section id="noticias">
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Renato Nunes de Menezes</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
