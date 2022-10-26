@@ -187,13 +187,13 @@ aside > h3 {
 aside > ul {
     list-style-position: inside; /* lista dentro do parágrafo */
     columns: 2; /* divide a lista em 2 colunas */
-    list-style-type: '\2714\00a0\00a0'; /* \2714 = emoji da internet. \00A0(nbsp) = espaço sem quebra
+    list-style-type: '\2714\00a0\00a0'; /* \2714 = emoji da internet. \00A0(nbsp) = espaço sem quebra */
 }
 
 footer {
     background-color: var(--cor5);
     color: white;
-    text-align: center; /* centraliza a linha */
+    text-align: center; 
     font-size: 0.8em;
     padding: 5px;
 }
