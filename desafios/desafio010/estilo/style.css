@@ -202,6 +202,7 @@ footer a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
+    text-align: center;
 }
 
 footer a:hover {
