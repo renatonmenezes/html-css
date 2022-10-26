@@ -5,4 +5,4 @@ Aprendendo a mexer em Github
 
 <a href="https://renatonmenezes.github.io/html-css/exercicios/ex001/index.html">Executar o exercício 001</a>
 
-<a href="https://renatonmenezes.github.io/html-css/exercicios/ex002/index.html">Executar o exercício 001</a>
+<a href="https://renatonmenezes.github.io/html-css/exercicios/ex002/index.html">Executar o exercício 002</a>
