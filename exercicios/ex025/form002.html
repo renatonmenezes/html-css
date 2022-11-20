@@ -4,55 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treinando FORMULÁRIO</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(127, 237, 232);
-        }
-        h1 {
-            height: 50px;
-            width: 330px;
-            border-radius: 5px;
-            padding-top: 10px;            
-        }
-
-        form {
-            background-color: lightgray;
-            border: 1px solid black;
-            box-shadow: 0px -1px 5px 0px black;
-            height: 85px;
-            width: 330px;
-            padding: 10px;
-            font-weight: bolder;
-        }
-        
-        input  {
-            background-color: lightgray;        
-        }
-
-        input#iend {
-            margin-left: 10px;
-        }
-
-        #enviar {
-            background-color: aliceblue;
-            margin-top: 10px;
-            margin-left: -10px;
-        }
-    </style>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Treinando formulário</h1>
-    <form action="relatorio.php" autocomplete="off" method="post">
+    <h1>Teste de formulários</h1>
+    <form action="#" method="post" autocomplete="on">
         <p>
-            <label for="inome">Nome: <input type="text" name="nome" id="inome"></label>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="30" size="11" placeholder="nome do usuário">
         </p>
         <p>
-            <label for="iend">End.: <input type="text" name="end" id="iend"></label>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="8" size="10" placeholder="mínimo 8 letras">
         </p>
-        <input id="enviar" type="submit" value="Enviar">
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
