@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <h1>Teste de formulários</h1>
-    <form action="#" method="post" autocomplete="on">
+    <form action="#" method="post" autocomplete="on"> 
+        <!-- *method= *post* = não exibi os dados na url --> 
+        <!-- *autocomplete on* = exibi o histórico de dados já digitado -->
         <p>
             <label for="iusu">Usuário:</label>
-            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="30" size="11" placeholder="nome do usuário">
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="30" size="11" placeholder="nome do usuário"> 
+            <!-- *required* = campo obrigatório -->
+            <!-- *minlength* = minimo de caracteres digitados --> 
+            <!-- *maxlength* = maximo de caracteres digitados --> 
+            <!-- *size* = quantidade de caracteres exibidos na caixa de preenchimento -->
+            <!-- *placeholder* = indica o que o usuário deve preencher -->
         </p>
         <p>
             <label for="isen">Senha:</label>
