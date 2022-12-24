@@ -5,8 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form 007</title>
+    <link rel="shortcut icon" href="imagens/renato.png" type="image/x-icon">
 </head>
 <body>
-    
+    <h1>Exemplo de Formulários</h1>
+    <form action="#" method="post" autocomplete="on">
+
+        <p>
+            <label for="iest">Estado</label>
+            <select name="est" id="iest">Estado: <!-- select = cria seleção de opções -->                
+                <option value="" selected>--- Escolha ---</option> <!-- selected = texto inical-->
+                <optgroup label="Região Sudeste"> <!-- optgroup = cria um grupo de opções -->
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof"> <!-- list = vincula ao datalist -->
+            <datalist id="lstprof"> <!-- datalist = cria uma selação de opções podendo tb ser digitado uma opção nova -->
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea> <!-- textarea = cria uma caixa para ser digitado um texto-->
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
