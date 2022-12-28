@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 001</title>
+    <link rel="shortcut icon" href="imagens/renato.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            font-weight: bolder;
+        }
+        
+        #enviar {
+            box-shadow: 1px 1px 1px #0000ff57;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Deixe um comentário</h1>
+    <form action="#" method="get" autocomplete="on">
+
+        <p>
+            <label for="inome">Nome:</label> <br>
+            <input type="text" name="nome" id="inome" size="50"> <br>
+
+            <label for="iemail">E-mail:</label> <br>
+            <input type="email" name="email" id="iemail" size="50"> <br>
+
+            <label for="isite">Website:</label> <br>
+            <input type="text" name="site" id="isite" size="50"> <br>
+
+            <label for="icomen">Comentário:</label> <br>
+            <textarea name="comen" id="icomen" cols="47" rows="10"></textarea>
+        </p>
+
+        <p>
+            Observação: Seu comentário será publicado após passar pelo moderador
+        </p>
+        <p>
+            <input id="enviar" type="submit" value="Enviar Comentário">            
+        </p>
+
+    </form>
+</body>
+</html>
