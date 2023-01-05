@@ -24,7 +24,7 @@ header > h1 {
     background-color: rgb(39, 38, 38);
     display: block;
     color: white;
-    text-align: center;
+    text-align: center center;
     padding: 10px;
     cursor: pointer;
 }
